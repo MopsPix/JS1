@@ -1,0 +1,15 @@
+const firstStr = 'qwertyuiop[]';
+const secondStr = 'asdfghjkl';
+const thirdStr = 'zxcvbnm';
+const firstNum = firstStr.length;
+const secondNum = secondStr.length;
+const thirdNum = thirdStr.length;
+console.log(firstStr.charAt(0));
+console.log(firstStr.charAt(11));
+console.log(secondStr.charAt(0));
+console.log(secondStr.charAt(8));
+console.log(thirdStr.charAt(0));
+console.log(thirdStr.charAt(6));
+console.log(firstStr.indexOf('['));
+console.log(firstStr.indexOf(']'));
+document.write(`firstStr: ${firstStr} <br> secondStr: ${secondStr} <br> thirdStr: ${thirdStr}<br> firstdNum: ${firstNum} <br> secondNum: ${secondNum}<br> thirdNum: ${thirdNum} `);
